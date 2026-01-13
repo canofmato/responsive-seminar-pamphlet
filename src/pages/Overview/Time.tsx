@@ -27,9 +27,9 @@ function Time() {
     
           <div className="flex flex-col font-inter font-medium text-[15px] lg:text-[24px] leading-[35px] lg:leading-[50px] items-center">
             <p>3팀 발표</p>
-            <p>쉬는 시간</p>
+            <p>전체 럭키드로우</p>
             <p>2팀 발표</p>
-            <p>4기 커리 안내</p>
+            <p>4기 커리큘럼 안내</p>
             <p>외부인원 퇴장 및 쉬는 시간</p>
             <p>3기 우수부원 발표</p>
             <p>내부 럭키드로우</p>
