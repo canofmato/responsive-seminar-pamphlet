@@ -69,7 +69,7 @@ function Home() {
 
       <footer className="absolute bottom-4 w-full flex justify-center items-center text-white/50 text-[12px] lg:text-[16px] mb-[env(safe-area-inset-bottom)]">
         <div>
-          <p>© 2026 DACODAY.  ALL rights reserved.</p>
+          <p>© 2026 DACODAY.  All rights reserved.</p>
         </div>
       </footer>
     </main>
