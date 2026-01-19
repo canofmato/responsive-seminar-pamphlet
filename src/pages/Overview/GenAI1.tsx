@@ -1,19 +1,7 @@
 import link from "../../assets/link.svg";
-
-import projectImg1 from "../../assets/test0.jpg";
-import projectImg2 from "../../assets/test1.jpg";
-import projectImg3 from "../../assets/test2.jpg";
-import projectImg4 from "../../assets/test3.jpg";
-import projectImg5 from "../../assets/test4.jpg";
+import ProjectViewer from "../../components/ProjectViewer";
 
 function GenAI1() {
-  const projectImages = [
-    { id: 1, src: projectImg1 },
-    { id: 2, src: projectImg2 },
-    { id: 3, src: projectImg3 },
-    { id: 4, src: projectImg4 },
-    { id: 5, src: projectImg5 },
-  ];
   return (
     <div className="flex flex-col items-center gap-[35px] lg:gap-[100px] mb-[28px] lg:mb-[90px]">
       <div className="flex flex-col items-center justify-center h-[120px]">
@@ -55,23 +43,7 @@ function GenAI1() {
 
       <div className="flex flex-col items-center gap-[24px]">
         <h1 className="font-bakbak text-[40px] lg:text-[50px] text-[#74CFFB]">Project</h1>
-        {/* 슬라이더 박스 */}
-        <div className="w-full max-w-[340px] lg:max-w-[1000px] overflow-hidden">
-          <div className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide gap-4 pb-4">
-            {projectImages.map((image) => (
-              <div
-                key={image.id}
-                className="flex-shrink-0 w-full snap-center bg-[#74CFFB]overflow-hidden">
-                <img
-                  src={image.src}
-                  alt={`Project ${image.id}`}
-                  className="w-full h-auto object-contain"
-                />
-              </div>
-            ))}
-          </div>
-
-        </div>
+        <ProjectViewer teamName="genAI1" totalSlides={38} />
       </div>
 
       <div className="flex flex-col items-center h-[120px] lg:gap-[8px]">
