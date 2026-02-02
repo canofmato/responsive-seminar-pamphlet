@@ -12,7 +12,7 @@
 ## 수정 가이드 요약
 
 1. 타임테이블 내용 수정
-2. Title 및 Overview의 <p> 텍스트 수정
+2. Title 및 Overview의`<p>` 텍스트 수정
 3. 팀원 이름 및 링크 수정
 4. ProjectViewer의 teamName / totalSlides 설정
 
